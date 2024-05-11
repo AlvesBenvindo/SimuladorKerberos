@@ -1,0 +1,34 @@
+{
+    "clientes": [
+      {
+        "id": 1,
+        "userName": "digra",
+        "nome": "Benvindo_Alves",
+        "senha": "123",
+        "key": "123456789",
+        "servicosAutorizados": ["servico1", "servico2"]
+      },
+      {
+        "id": 2,
+        "userName": "manelito",
+        "nome": "Manuel dos Santos",
+        "senha": "456",
+        "key": "123456789",
+        "servicosAutorizados": ["servico1", "servico2"]
+      }
+    ],
+    "servicos": [
+      {
+        "id": "servico1",
+        "nome": "Calculadora",
+        "key": 100000,
+        "descricao": "Opera +,-,x,/"
+      },
+      {
+        "id": "servico2",
+        "nome": "Ábaco",
+        "key": 200000,
+        "descricao": "Descrição do Serviço 2"
+      }
+    ]
+  }

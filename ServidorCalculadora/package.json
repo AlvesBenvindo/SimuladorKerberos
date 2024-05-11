@@ -1,0 +1,19 @@
+{
+  "name": "servidorcalculadora",
+  "version": "1.0.0",
+  "description": "Este é um dos servidores de servico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server"
+  },
+  "author": "Benvindo Alves e Manuel dos Santos",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
